@@ -1,11 +1,11 @@
-# 파이썬으로 배우는 웹 크롤러
-- PART 1 ··· 크롤러  
-- [PART 2 ··· 서버와 클라이언트](https://github.com/Jung-YongHan/Crawling-for-Data-Analysis/tree/main/Web%20Crawler%20Learning%20with%20Python/Part%202_%EC%84%9C%EB%B2%84%EC%99%80%20%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8)  
-- PART 3 ··· 웹을 구성하고 있는 요소  
-- PART 4 ··· 파이썬 기초 문법  
-- PART 5 ··· 파이썬 중급 문법  
-- PART 6 ··· 크롤링할 때 필요한 라이브러리  
+# Web Crawler Learning with Python
+- PART 1 ··· Crawler  
+- [PART 2 ··· Server and Client](https://github.com/Jung-YongHan/Crawling-for-Data-Analysis/tree/main/Web%20Crawler%20Learning%20with%20Python/Part%202_%EC%84%9C%EB%B2%84%EC%99%80%20%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8)  
+- PART 3 ··· elements that make up the web  
+- PART 4 ··· Python Basic Syntax  
+- PART 5 ··· Python Intermediate Syntax  
+- PART 6 ··· Library for Crawling  
 - PART 7 ··· bs4  
-- PART 8 ··· 가상 돔을 활용한 크롤러  
-- PART 9 ··· 데이터 가지고 놀기  
-- PART 10 ··· 다양한 분야에서 활용하는 파이썬  
+- PART 8 ··· Crawler using Virtual DOM  
+- PART 9 ··· Playing with data  
+- PART 10 ··· Python used in various field
