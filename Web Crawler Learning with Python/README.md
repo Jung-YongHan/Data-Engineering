@@ -1,7 +1,7 @@
 # Web Crawler Learning with Python
 - PART 1 ，，， Crawler  
 - [PART 2 ，，， Server and Client](https://github.com/Jung-YongHan/Crawling-for-Data-Analysis/tree/main/Web%20Crawler%20Learning%20with%20Python/Part%202_%EC%84%9C%EB%B2%84%EC%99%80%20%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8)  
-- [PART 3 ，，， elements that make up the web](https://github.com/Jung-YongHan/Crawling-for-Data-Analysis/tree/main/Web%20Crawler%20Learning%20with%20Python/Part%203_%EC%9B%B9%EC%9D%84%20%EA%B5%AC%EC%84%B1%ED%95%98%EA%B3%A0%20%EC%9E%88%EB%8A%94%20%EC%9A%94%EC%86%8C)
+- [PART 3 ，，， Elements that make up the web](https://github.com/Jung-YongHan/Crawling-for-Data-Analysis/tree/main/Web%20Crawler%20Learning%20with%20Python/Part%203_%EC%9B%B9%EC%9D%84%20%EA%B5%AC%EC%84%B1%ED%95%98%EA%B3%A0%20%EC%9E%88%EB%8A%94%20%EC%9A%94%EC%86%8C)
 - PART 4 ，，， Python Basic Syntax  
 - PART 5 ，，， Python Intermediate Syntax  
 - PART 6 ，，， Library for Crawling  
