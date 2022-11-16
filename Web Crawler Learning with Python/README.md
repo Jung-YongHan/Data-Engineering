@@ -1,6 +1,6 @@
 # 파이썬으로 배우는 웹 크롤러
 - PART 1 ··· 크롤러  
-- [PART 2 ··· 서버와 클라이언트]()  
+- [PART 2 ··· 서버와 클라이언트](https://github.com/Jung-YongHan/Crawling-for-Data-Analysis/tree/main/Web%20Crawler%20Learning%20with%20Python/Part%202_%EC%84%9C%EB%B2%84%EC%99%80%20%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8)  
 - PART 3 ··· 웹을 구성하고 있는 요소  
 - PART 4 ··· 파이썬 기초 문법  
 - PART 5 ··· 파이썬 중급 문법  
