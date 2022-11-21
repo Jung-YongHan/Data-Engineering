@@ -1,6 +1,6 @@
 # 파이썬으로 배우는 웹 크롤러
 
-[실습파일]()
+[실습](https://github.com/Jung-YongHan/Crawling-for-Data-Analysis/tree/main/Web%20Crawler%20Learning%20with%20Python/Part%203_%EC%9B%B9%EC%9D%84%20%EA%B5%AC%EC%84%B1%ED%95%98%EA%B3%A0%20%EC%9E%88%EB%8A%94%20%EC%9A%94%EC%86%8C/Practice)
 
 ## 1. 웹
 World Wide Web. WWW의 약자로 인터넷에 연결된 클라이언트들이 정보를 공휴할 수 있는 공간을 의미.  
