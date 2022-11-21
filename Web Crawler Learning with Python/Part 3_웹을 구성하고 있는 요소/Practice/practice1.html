@@ -1,0 +1,131 @@
+<!DOCTYPE html>         <!--html5를 명시-->
+<html lang="en">        <!--html로 모든 태그를 감싸 주어야 함. 태그에는 lang이라는 속성을 가지고 있음-->
+    <head>              <!--head 태그는 meta, title 이외의 style, script, link와 같은 태그를 포함할 수 있음-->
+        <meta charset="'UTF-8">     <!--meta 태그는 문서가 어떤 내용을 담고 있는지, 문서의 키워드가 무엇인지, 
+                                        누가 만들었는지에 대한 내용을 가지고 있음.-->
+        <title>Title</title>        <!--title 태그는 문서의 제목을 나타냄-->
+    </head>
+    <body>              <!--body 태그는 우리가 보는 웹 페이지의 내용을 담고 있는 부분.
+                        가장 중요한 부분이며 크롤링을 할 때 실제 데이터를 파싱해야하는 부분-->    
+    <p>파이썬 크롤러 책1</p>        <!--p 태그를 이용하여 문단을 만들 수 있음-->
+    <p>박정태</p>
+    <p>정보문화사</p>
+    <h1>1</h1>          <!--h 태그를 이용하여 폰트 크기를 설정할 수 있음-->
+    <h2>2</h1>          <!--숫자가 작을 수록 폰트 크기가 커지며 1~6까지 지원-->
+    <h3>3</h1>
+    <h4>4</h1>
+    <h5>5</h1>
+    <h6>6</h1>
+    
+    <ul>                <!--ul과 li 태그는 리스트를 만드는 태그-->
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+
+    <ol>                <!--ul과 ol태그로 리스트를 만들 수 있음. 리스트 각각의 요소를 li 태그로 표현-->
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+    </ol>
+
+    <table>             <!--table 태그를 이용하여 표를 표현할 수 있음. 과거에는 페이지의 레이아웃을 잡는 역할로도 수행-->
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>            <!--table 태그는 내부적으로 thead, tbody를 가지고 있을 수 있음, tr을 이용하여 행 표현
+                            th, td를 이용하여 각 행의 컬럼을 표현-->
+    <table>             <!--th와 td 태그는 한 행에서 컬럼을 나타내는 태그. th는 해당 컬럼에서 가운데 정렬, 굵은 글씨체.-->
+        <thead>         <!--일반적으로 테이블의 가장 첫 번째 행의 컬럼에 넣음.-->
+            <tr>
+                <th>11</th>
+                <th>22</th>
+                <th>33</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>111</td>
+                <td>222</td>
+                <td>333</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <input type="text" value="'test1"> <!--데이터를 넣을 수 있는 폼, type, name, value와 같은 속성 존재-->
+    <input type="text" value="'test2"> <!--input 태그에 type에 button을 넣어주면 button을 만들 수 있음-->
+    <input type="text" value="'test3"> <!--닫는 태그 존재x-->
+
+    <button>bt1</button> <!--버튼을 만들어 주는 태그-->
+    <button>bt2</button>
+    <button>bt3</button>
+
+    <select name="address">
+        <option value="">주소선택</option> <!--select 태그는 선택 리스트를 만듦. select를 누르면 option 태그로 감싼 것들이 리스트의 아이템으로 채워짐.-->
+        <option value="파주">파주</option>
+        <option value="혜화">혜화</option>
+        <option value="홍대">홍대</option>
+        <option value="종로">종로</option>
+    </select>
+
+    <ul>
+        <li>
+            <a href="http://www.naver.com">네이버로 이동하기</a> <!--a 태그는 href 속성을 가지고 있으며 클릭 시 이동되는 링크이다.-->
+            <a href="http://www.google.com">구글로 이동하기</a> <!--링크를 만드는 방법 1. 주소 전체 작성, 2. 상대경로(상대주소)를 이용해 리소스 경로 작성-->
+            <a href="http://www.facebook.com">페이스북으로 이동하기</a> <!--2. 절대경로(절대주소)를 이용해 리소스 경로 작성-->
+        </li>
+        <li>
+            <a href="a">a로 이동</a> <!--www.naver.com/a로 이동(현재 naver일 시)-->
+            <a href="path/a">path/a로 이동</a> <!--www.naver.com/a/path/a로 이동, 상대경로-->
+        </li>
+        <li>
+            <a href="/a">/a로 이동</a> <!--www.naver.com/a로 이동-->
+            <a href="/path/a">/path/a로 이동</a> <!--www.naver.com/path/a로 이동, 절대경로-->
+        </li> <!--절대경로로 작성 시 어느 페이지에서 링크로 이동 하던 항상 같은 URL요청. 대부분의 사이트에서 맨 앞에 슬래시(/)를 붙여 절대경로를 사용-->
+    </ul>   <!--웹사이트를 분석할 때 가장 관심있게 지켜보는 태그 중 하나가 a 태그로서, a태그의 href 속성을 가져와 페이지를 수집-->
+
+    <img src="frog.png" alt="개구리"> <!--img 태그를 이용하여 이미지를 띄우기. src속성으로 이미지를 불러옴. alt 속성은 해당 이미지가 정상적으로 불러와지지 않았을 대 이미지를 대체하는 글-->
+                                     <!--src값을 가져와서 해당 이미지를 다운로드 받는 코드도 작성 가능하다.-->
+    <span>span1</span> <!--p 태그처럼 글을 넣을 수 있음.-->
+    <span>span2</span> <!--p 태그는 문단 개념이라 자동으로 태그 간 엔터가 적용되지만 span 태그는 옆으로 나열-->
+    <span>span3</span> <!--css에서는 이러한 개념을 display: block과 display: inline이라고 표현-->
+
+    <span>span1<br></span> <!--br 태그 사용 시 span태그를 p태그처럼 사용 할 수 있음-->
+    <span>span2<br></span> <!--br태그도 닫는 태그가 필요 없고 <br>, </br> 둘 다 사용 가능-->
+    <span>span3<br></span>
+
+    <div>
+        <h1>첫 번째 div</h1> <!--div 태그는 눈에는 보이지 않지만 하위 태그들의 영역을 잡아주는 역할을 함.-->
+        <span>span1</spanm> <!--크롤러를 만들기 위해 웹페이지를 분석하다보면 가장 많이 보이는 태그-->
+        <span>span2</spanm> <!--웹 소스는 Elemets탭에서 확인 가능-->
+    </div>
+    <div>
+        <h1>두 번째 div</h1> <!--예전에는 div 태그 대신 table 태그로 구조를 잡았었음. -> 크롤러를 만들기 위해 HTML을 분석하다보면 table을 중첩해서 만든 사이트 볼 수 있음.-->
+        <p>p1</p>   <!--table로 만든 사이트는 크롤링하기가 힘듦. id와 class 같은 속성을 거의 사용하지 않기 때문.-->
+        <p>p2</p> <!--id와 class같은 속성을 selector라고 부름. selector의 존재 유무는 우리가 원하는 데이터를 정확하게 수집할 수 있냐 없냐의 차이-->
+    </div>          <!--table 태그로 구조를 잡은 사이트의 경우 selector를 해당 태그에 잘 명시하지 않기 때문에 우리가 원하는 데이터를 수집하기 어렵다.-->
+    <div>
+        <h1>세 번째 div</h1> <!--id와 class 속성은 우리가 파싱하기 위해 관심있게 지켜봐야 할 속성. id와 class 속석은 데이터를 파싱하기 위해 반드시 필요한 속성-->
+        <h2>h2</h2> <!--모든 태그에 들어갈 수 있음.-->
+        <h4>h4</h4>
+    </div>
+    <div>
+        <h1>네 번째 div</h1>
+        <div>
+            <h2>div 중첩</h2>
+            <ul>
+                <li>li1</li>
+                <li>li3</li>
+            </ul>
+        </div>
+    </div>
+    </body>
+</html>

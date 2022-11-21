@@ -1,5 +1,7 @@
 # 파이썬으로 배우는 웹 크롤러
 
+[실습파일]()
+
 ## 1. 웹
 World Wide Web. WWW의 약자로 인터넷에 연결된 클라이언트들이 정보를 공휴할 수 있는 공간을 의미.  
 이러한 공간을 사용할 수 있도록 해주는 것이 **웹 브라우저**.  
@@ -47,3 +49,12 @@ style 태그는 CSS 코드가 포함되는 태그. link 태그도 CSS 코드가 담겨 있는 태그.
 scrpit 태그는 JavaScript 코드가 포함된 태그.  
 style과 link와 다르게 script 태그로 JavaScript 코드를 작성하거나 JavaScript 코드가 포함된 파일을 로드할 수 있음.  
 script 태그는 head 태그에 포함될 수 있지만 body 태그 가장 하단에 포함될 수 있음.
+
+---
+---
+## 3.CSS
+Cascading Style Sheets. CSS의 약자로, 웹 사이트를 꾸며주는 역할<br>
+CSS로 웹사이트를 꾸며주기 위해 해당 태그에 접근하는 방식을 크롤러에서도 똑같이 적용할 수 있기 때문에 CSS를 배움.
+
+- selector - CSS를 이용하여 꾸미기 위해 특정 요소에 접근하는 것.<br>
+태그를 이용하는 방법과 id, class 속성을 이용하는 방법.

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-9">
+        <title>Title</title>
+        <style>
+            p.p-target{
+                font-size: 17px;
+                color:blue;
+            }
+            li.li-target{
+                list-style-type: none;
+            }
+            .target{
+                font-size: 40px;
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <p>p 태그1</p> 
+        <p class="p-target">p 태그2</p> <!--두 번째 p 태그와 세 번째 li 태그만 적용.-->
+        <p>p 태그3</p> <!--셀렉터를 만들 때 클래스를 표현하기 위해 마침표(.)를 붙여서 표현-->
+        <p>p 태그4</p>
+
+        <ul>
+            <li>li1</li>
+            <li>li2</li>
+            <li class="li-target">li3</li>
+            <li>li4</li>
+        </ul>
+        
+        <h1>h1 태그</h1>
+        <h1 class="target">h2 태그</h1>
+        <h1>h3 태그</h1>
+        <a href="/" class="target">a 태그</a>
+    </body>
+</html>
