@@ -115,7 +115,7 @@ namespace2.s2()
 - 스크립트 언어에서는 파일을 객체 취급하기 때문에 import 시 해당 파일을 객체 취급 => 변수 접근 시 마침표(.)을 이용
 - as(alias)로 네이밍 중복 방지 가능  
 
-- \_\_name\_\_은 실행된 파일일 경우 __main__을 반환하고 import된 파일은 해당 파일의 이름을 반환한다. [실습]()
+- \_\_name\_\_은 실행된 파일일 경우 __main__을 반환하고 import된 파일은 해당 파일의 이름을 반환한다. [실습](https://github.com/Jung-YongHan/Crawling-for-Data-Analysis/tree/main/Web%20Crawler%20Learning%20with%20Python/Part%205_%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%A4%91%EA%B8%89%20%EB%AC%B8%EB%B2%95/Practice)
 
 - 예외 처리  
     
