@@ -1,5 +1,5 @@
 # 데이터 사이언스 교과서
-[PART 1 - 서론]()  
+[PART 1 - 서론](https://github.com/Jung-YongHan/Data-Engineering/tree/main/DataScienceTextBook/Part%201_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EA%B3%BC%ED%95%99%20%EC%9A%A9%EC%96%B4)  
 PART 2 - 데이터 처리와 가시화  
 PART 3 - 확률의 기초  
 PART 4 - 통계의 기초  
