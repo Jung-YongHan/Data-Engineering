@@ -39,16 +39,18 @@
 ---
 ---
 ## 3. 데이터의 저장
-[실습]()
+[실습](https://github.com/Jung-YongHan/Data-Engineering/tree/main/DataScienceTextBook/Part%202_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B2%98%EB%A6%AC%EC%99%80%20%EA%B0%80%EC%8B%9C%ED%99%94/practice)
 
+---
+---
 ## 4. 그래프 작성
 - matplotlib: 파이썬에서 대표적인 그래프 패키지
 - pandas: 통계 분석 외에 그래프 기능을 가지고 있다.
 - seaborn: 통계용 데이터나 기계학습의 그래프 작성에 자주 이용된다.
-- mlxtend: 패턴 인식이나 기계학습의 결과 그래프 작성에 유용하다. 별도의 설치가 필요.  S
-[실습]()
+- mlxtend: 패턴 인식이나 기계학습의 결과 그래프 작성에 유용하다. 별도의 설치가 필요.  
+[실습](https://github.com/Jung-YongHan/Data-Engineering/tree/main/DataScienceTextBook/Part%202_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B2%98%EB%A6%AC%EC%99%80%20%EA%B0%80%EC%8B%9C%ED%99%94/practice)
 
-가시화가 요구되는 이유:  
+### 가시화가 요구되는 이유:  
 가시화된 그래프나 그림은 직감적으로 개요를 알기 쉽고, 즉각적으로 취지를 빠르게 상대에게 전달할 수 있다는 이유가 첫 번째이다.  
 이에 반해서, 엄밀한 또는 치밀한 이론을 만들어 내기 위해서는 기호(변수, 수식, 전문 용어 등)를 구사하는 경우가 많다.  
 치밀한 이론을 상대에게 전체 내용을 전달하려면 시간이 필요하다. 따라서 상대방이 전체 내용을 빠르게 이해하기 바랄 때에는 가시화가 자주 요구된다.  
