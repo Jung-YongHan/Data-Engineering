@@ -48,6 +48,7 @@
 - pandas: 통계 분석 외에 그래프 기능을 가지고 있다.
 - seaborn: 통계용 데이터나 기계학습의 그래프 작성에 자주 이용된다.
 - mlxtend: 패턴 인식이나 기계학습의 결과 그래프 작성에 유용하다. 별도의 설치가 필요.  
+
 [실습](https://github.com/Jung-YongHan/Data-Engineering/tree/main/DataScienceTextBook/Part%202_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B2%98%EB%A6%AC%EC%99%80%20%EA%B0%80%EC%8B%9C%ED%99%94/practice)
 
 ### 가시화가 요구되는 이유:  
