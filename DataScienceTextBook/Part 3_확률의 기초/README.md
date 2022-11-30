@@ -155,11 +155,11 @@ scipy.stats.norm은 정규분포에 관한 몇 가지 계산을 수행한다.
 - norm.pdf(probability desity function, 확률 함수) 확률 변수 x가 주어지고 확률밀도 함수 f(x)의 값을 구한다.
 - norm.rvs(random variables) 평균값 loc, 표준편차 scale, 크기 size의 랜덤 변수를 발생시킨다.  
 
-[실습 practice1]()
+[실습 practice1](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%203_%ED%99%95%EB%A5%A0%EC%9D%98%20%EA%B8%B0%EC%B4%88/practice/practice1.ipynb)
 
 ### 3.2 확률 변수의 생성
 인공적으로 확률 변수 생성  
-[실습 practice2]()
+[실습 practice2](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%203_%ED%99%95%EB%A5%A0%EC%9D%98%20%EA%B8%B0%EC%B4%88/practice/practice2.ipynb)
 
 ### 3.3 중심극한정리
 중심극한정리(central limit theorem)  
@@ -175,7 +175,7 @@ z = (표본평균 - µ) / (σ/n*0.5)
 이것은 n이 커짐에 따라 표준정규분포 N(0, 1)에 가까워진다.
 
 이 정리는 모집단의 확률분포가 어떠한 것이라도, n이 충분히 크다면, 표본분포는 정규분포 N(µ, σ2/n)을 따른다고 간주하면 된다는 것을 기술한다. 이것이 정규분포가 자주 이용되는 이유 중의 하나이다.  
-[실습 practice3]()
+[실습 practice3](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%203_%ED%99%95%EB%A5%A0%EC%9D%98%20%EA%B8%B0%EC%B4%88/practice/practice3.ipynb)
 
 ---
 ---
@@ -195,10 +195,10 @@ P(X = k) = e^(-λt) * (λt)^k / k!
 
 포아송분포가 적용되는 예  
 -교통사고 발생확률, 하루에 수신하는 전자우편 건수, 단위 시간 당 웹 서버에 대한 액세스 수, 단위 시간당 은행 지점이나 ATM을 방문하는 손님의 수 등.  
-[실습 practice4]()
+[실습 practice4](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%203_%ED%99%95%EB%A5%A0%EC%9D%98%20%EA%B8%B0%EC%B4%88/practice/practice4.ipynb)
 
 ### 4.2 포아송분포의 예
-[실습 practice5]()  
+[실습 practice5](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%203_%ED%99%95%EB%A5%A0%EC%9D%98%20%EA%B8%B0%EC%B4%88/practice/practice5.ipynb)  
 축구의 득점은 포아송분포로 나타난다고 가정하자. 이 가정을 기초로 축구시합에서 약한 팀(A)과 강한 팀(B)이 대전할 때 약한 팀이 이길 확률?  
 
 A팀의 1시합 당 평균득점은 λa = 1점, B팀의 평균득점은 λb = 2점이라고 한다.  
@@ -252,7 +252,7 @@ T = -1/λ * loge*Parr(T)             를 이용해도 통계적인 결과는 동
 
 ```
 Num 명 고객의 도착시각을 시뮬레이션하는 스크립트, λ=1  
-[실습 practice6]()
+[실습 practice6](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%203_%ED%99%95%EB%A5%A0%EC%9D%98%20%EA%B8%B0%EC%B4%88/practice/practice6.ipynb)
 
 ### 4.4 역함수를 이용한 난수 생성(이해X)
 
