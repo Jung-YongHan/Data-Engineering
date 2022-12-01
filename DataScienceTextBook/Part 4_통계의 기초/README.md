@@ -29,7 +29,7 @@
 즉 E[hat(θ)] = θ가 성립할 때 추정량 hat(θ)를 **불편추정량**(unbiased estimator)라고 부른다.  
 
 불편성을 가질 때 θ의 주변에 hat(θ)가 분포한다.  
-[실습]()
+[실습](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%204_%ED%86%B5%EA%B3%84%EC%9D%98%20%EA%B8%B0%EC%B4%88/practice/practice1.ipynb)
 
 #### **표본분산의 자유도**  
 **자유도**(degree of freedom, DoF) - 몇 개의 변수를 마음대로(자유롭게) 움직여도 되는가를 측정하는 지표.   
