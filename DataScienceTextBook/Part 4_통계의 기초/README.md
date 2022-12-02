@@ -196,7 +196,7 @@ $t = \frac{\hat{\mu} - \mu_0}{\hat{σ}/\sqrt{N}}$ ~ $t$(N - 1)
 t검정의 경우도, 정성적으로는 z검정과 마찬가지로 볼 수 있다. 다른 점으로는 $N$이 작아지면 t분포는 양쪽 폭이 높고 넓어진다.  
 이 때문에 $N$이 작아질 때 검정통계량 t의 오차나 변동만큼 다소 영향이 커지더라도 z검정 때보다도 기각하는 확률을 줄이려는 견해가 있다.
 
-[실습]()
+[실습](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%204_%ED%86%B5%EA%B3%84%EC%9D%98%20%EA%B8%B0%EC%B4%88/practice/practice3.ipynb)
 
 ### 3.4 모분산의 검정
 표본 $\{x_i\}$, ($i$ = 1 ~ $N$)이 서로 독립이고 정규분포 $N(\mu, σ^2$)를 따른다고 가정한다. 이 $\mu, σ^2$  양쪽 모두 알지 못한다.  
@@ -213,7 +213,7 @@ $\mathcal{X}^2 = \frac{N-1}{σ_0^2}\hat{σ^2}$ ~ $\mathcal{X}^2$(N - 1)
 한편, 우변의 $\mathcal{X}^2(N - 1)$은 자유도 $(N - 1)$인 카이제곱분포 함수이다.  
 좌변의 검정통계량 $\mathcal{X}^2$은 $\mathcal{X}^2$의 분포를 따르는 것을 알고 있다. 
 
-[실습]()
+[실습](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%204_%ED%86%B5%EA%B3%84%EC%9D%98%20%EA%B8%B0%EC%B4%88/practice/practice4.ipynb)
 
 ### 3.5 두 표본의 평균 차이에 대한 검정(pass)
 두 모분산을 모두 알지 못하는 경우에는 웰치의 t검정을 이용
@@ -242,4 +242,4 @@ $\hat{p_{xy}}$ > 0 일 때 **양의 상관**, $\hat{p_{xy}}$ <0일 때 **음의 
 
 t = $\frac{|\hat{p_{xy}}|\sqrt{N - 2}}{\sqrt{1 - \hat{p_{xy}}^2}}$ ~ t $(N - 2)$
 
-[실습]()
+[실습](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%204_%ED%86%B5%EA%B3%84%EC%9D%98%20%EA%B8%B0%EC%B4%88/practice/practice5.ipynb)
