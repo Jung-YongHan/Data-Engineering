@@ -3,7 +3,7 @@
 [PART 2 - 데이터 처리와 가시화](https://github.com/Jung-YongHan/Data-Engineering/tree/main/DataScienceTextBook/Part%202_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B2%98%EB%A6%AC%EC%99%80%20%EA%B0%80%EC%8B%9C%ED%99%94)  
 [PART 3 - 확률의 기초](https://github.com/Jung-YongHan/Data-Engineering/tree/main/DataScienceTextBook/Part%203_%ED%99%95%EB%A5%A0%EC%9D%98%20%EA%B8%B0%EC%B4%88)  
 [PART 4 - 통계의 기초](https://github.com/Jung-YongHan/Data-Engineering/tree/main/DataScienceTextBook/Part%204_%ED%86%B5%EA%B3%84%EC%9D%98%20%EA%B8%B0%EC%B4%88)  
-PART 5 - 회귀분석  
+[PART 5 - 회귀분석](https://github.com/Jung-YongHan/Data-Engineering/tree/main/DataScienceTextBook/Part%205_%ED%9A%8C%EA%B7%80%20%EB%B6%84%EC%84%9D)  
 PART 6 - 패턴 인식  
 PART 7 - 심층학습  
 PART 8 - 시계열 데이터 분석  

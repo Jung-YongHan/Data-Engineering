@@ -108,4 +108,4 @@ $0 < R^2 \le 1$
 
 ### 2.3 가계 동향 조사
 2인이상 세대의 연간 수입에 대해, 1개월당 지출과 엥겔계수 각각에 대한 단순회귀분석을 실시.  
-[실습]()
+[실습](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%205_%ED%9A%8C%EA%B7%80%20%EB%B6%84%EC%84%9D/practice/practice1.ipynb)
