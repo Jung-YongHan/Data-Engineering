@@ -109,3 +109,15 @@ $0 < R^2 \le 1$
 ### 2.3 가계 동향 조사
 2인이상 세대의 연간 수입에 대해, 1개월당 지출과 엥겔계수 각각에 대한 단순회귀분석을 실시.  
 [실습](https://github.com/Jung-YongHan/Data-Engineering/blob/main/DataScienceTextBook/Part%205_%ED%9A%8C%EA%B7%80%20%EB%B6%84%EC%84%9D/practice/practice1.ipynb)
+
+### 2.4 심슨의 역설
+데이터 가시화도 포함하여 몇 가지 통계량을 살펴보고 나서 회귀분석을 실시한 뒤에 사전분석과 대조하여 확인한 후 결과를 평가하는 것이 바람직하다.  
+이것을 게을리하여 잘못을 범하는 대표적인 예로 통계학에서 유명한 심슨의 역설(Simpson's paradox)이 있다.
+
+이것은 모집단의 상관과 부분집단의 상관이 다른 경우가 있고 부분집단에서의 가설이나 통계분석 결과가 모집단과는 정반대의 결과가 나오는 것을 지적.
+
+### 2.5 수학적 설명
+**불편추정량:** $E[\hat{\beta_0}] = \beta_0$, $~~E[\hat{\beta_1}] = \beta_1$  
+
+**일치추정량:** $N \to \infty$일 대 아래 계수의 분산은 0에 가까워진다.
+<img src='./images/4.jpg' width=800 height=300>
